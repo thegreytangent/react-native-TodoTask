@@ -26,7 +26,7 @@ export default function App() {
     <View style={styles.container}>
 
       <View style={styles.tasksWrapper}>
-        <Text style={styles.sectionTitle}>Piggy Task</Text>
+        <Text style={styles.sectionTitle}>Todolist Task</Text>
 
         <View style={styles.items}>
           {
