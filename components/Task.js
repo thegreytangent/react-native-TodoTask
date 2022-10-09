@@ -5,10 +5,12 @@ import { TouchableOpacity } from "react-native-web";
 const Task = (prop) => {
   return (
     <View style={styles.item}>
+      
       <View style={styles.itemLeft}>
         <View style={styles.square}></View>
         <Text style={styles.itemText}>{prop.text}</Text>
       </View>
+
       <View style={styles.circular}></View>
     </View>
   );
